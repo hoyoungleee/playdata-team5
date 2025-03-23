@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Input {
 
     //정수형 입력받기
-    public int inputInt(){
+    public static int inputInt(){
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print(">>>> ");
         int num = -1;// 입력예외로 인하여 입력값으로 재할당 되지않으면 -1 그대로 리턴. 호출부에서 -1 받으면 오류로 판단.
@@ -22,7 +22,7 @@ public class Input {
     }
 
     //문자열 입력받기
-    public String inputString(){
+    public static String inputString(){
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print(">>>> ");
         String str = "";// 입력예외로 인하여 입력값으로 재할당 되지않으면 빈문자열 그대로 리턴. 호출부에서 빈문자열 받으면 오류로 판단.

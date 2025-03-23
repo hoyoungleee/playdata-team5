@@ -1,4 +1,4 @@
-package samplePackage.sampleRepository;
+package repository.sample;
 
 import jdbc.DBConnectionManager;
 import samplePackage.sample.Sample;
